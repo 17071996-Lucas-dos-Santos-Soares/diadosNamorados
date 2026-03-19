@@ -14,6 +14,6 @@ function clicar() {
     let msg = window.document.querySelector('div#msg')
     let nome = window.prompt('Digite seu nome')
     msg.innerHTML = `Parabéns ${nome} você fez uma ótima escolha!💋`
-    msg.style.color = '#8b0000'
+    msg.style.color = '#fff'
     msg.style.fontSize = '15pt'
 }
