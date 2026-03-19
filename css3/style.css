@@ -7,7 +7,10 @@
    background-color: #8b0000;
  }
  .painel {
-   background-color: #ffffff;
+   background-image: url(../imgs/rosas.jpg);
+   background-repeat: no-repeat;
+   background-position: 100%, 100%;
+   background-size: 100%, 100%;
     margin: auto;
     margin-top:50px;
     border-radius:30px;
@@ -19,6 +22,11 @@
     padding-top: 50px;
     font-family: 'Lobster 1.4';
     letter-spacing: 1.4;
+ }
+ .painel img{
+   border-radius: 40px;
+   box-shadow: 2px 2px 2px #0000004d;
+   opacity: 0.8;
  }
  .painel h5{
     font-size:1.2rem;
@@ -37,12 +45,16 @@
     font-family: "Montserrat", sans-serif;
     border-radius: 30px;
     transition: all 0.4s;
+    border: none;
  }
  #sim:hover {
     background-color: #8b0000;
     transition: all 0.4s;
     color: #ffffff;
     cursor: pointer;
+ }
+ #msg{
+   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
  }
  #nao {
     position: relative;
@@ -55,6 +67,7 @@
     transition: all 0.4s;
     margin-left: 10px;
     font-family: "Montserrat", sans-serif;
+    border: none;
  }
  #nao:hover {
     background-color: #8b0000;
