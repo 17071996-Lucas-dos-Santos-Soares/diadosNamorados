@@ -8,13 +8,13 @@ function fuja() {
      let aleatorioY = Math.floor(Math.random() * maxY)
      botaoNao.style.left = aleatorioX + "px"
      botaoNao.style.top = aleatorioY + "px"
+     botaoNao.innerHTML = 'Não!'
 }
 function clicar() {
     let botaoSim = window.document.querySelector('button#sim')
     let msg = window.document.querySelector('div#msg')
     let nome = window.prompt('Digite seu nome')
     msg.innerHTML = `Parabéns ${nome} você fez uma ótima escolha!💋`
-    botaoNao.innerHTML = 'Então problema é seu'
     msg.style.color = '#fff'
     msg.style.fontSize = '15pt'
 }
